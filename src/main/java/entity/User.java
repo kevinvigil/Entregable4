@@ -8,7 +8,6 @@ import java.util.Set;
 @Entity
 @Data
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -34,4 +33,5 @@ public class User {
 
     private int mercadoPago;
     public User(){}
+
 }

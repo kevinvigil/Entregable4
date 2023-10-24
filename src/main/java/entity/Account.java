@@ -9,7 +9,6 @@ import java.util.Set;
 @Entity
 @Data
 public class Account {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -22,4 +21,6 @@ public class Account {
 
     @ManyToMany(mappedBy = "Accounts")
     private Set<User> users;
+
+    public Account(){}
 }
