@@ -13,10 +13,10 @@ public class Scooter {
     private long id;
 
     @Column
-    public static long normalRate;
+    private static long normalRate;
 
     @Column
-    public static long extraRate;
+    private static long extraRate;
 
     @Column
     private LocalDate activeTime;

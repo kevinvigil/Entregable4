@@ -7,5 +7,6 @@ import lombok.Data;
 @Data
 public class Stand {
     @Id
-    private  int id;
+    private  Long id;
+
 }
